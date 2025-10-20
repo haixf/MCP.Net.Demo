@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McpDemo", "src\McpDemo\McpDemo.csproj", "{DACCEAC3-56E8-4640-AF0C-C47478682BFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticKernelSample", "clients\semantic-kernel\SemanticKernelSample.csproj", "{5580FA2F-7C29-4219-8135-94151F7F35AD}"
+EndProject
+Global
+    GlobalSection(SolutionConfigurationPlatforms) = preSolution
+        Debug|Any CPU = Debug|Any CPU
+        Release|Any CPU = Release|Any CPU
+    EndGlobalSection
+    GlobalSection(ProjectConfigurationPlatforms) = postSolution
+        {DACCEAC3-56E8-4640-AF0C-C47478682BFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {DACCEAC3-56E8-4640-AF0C-C47478682BFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {DACCEAC3-56E8-4640-AF0C-C47478682BFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {DACCEAC3-56E8-4640-AF0C-C47478682BFD}.Release|Any CPU.Build.0 = Release|Any CPU
+        {5580FA2F-7C29-4219-8135-94151F7F35AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {5580FA2F-7C29-4219-8135-94151F7F35AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {5580FA2F-7C29-4219-8135-94151F7F35AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {5580FA2F-7C29-4219-8135-94151F7F35AD}.Release|Any CPU.Build.0 = Release|Any CPU
+    EndGlobalSection
+    GlobalSection(SolutionProperties) = preSolution
+        HideSolutionNode = FALSE
+    EndGlobalSection
+EndGlobal
