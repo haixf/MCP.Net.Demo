@@ -1,0 +1,12 @@
+{
+  "github.copilot.mcp.servers": {
+    "mcp-dotnet-demo": {
+      "command": "dotnet",
+      "args": [
+        "run",
+        "--project",
+        "${MCP_NET_DEMO_ROOT}/src/McpDemo/McpDemo.csproj"
+      ]
+    }
+  }
+}
