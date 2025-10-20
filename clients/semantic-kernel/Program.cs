@@ -36,6 +36,16 @@ Console.WriteLine($"echo => {echoResult.FirstOrDefault()?.Text}");
 var timeResult = await client.CallToolAsync("utcNow");
 Console.WriteLine($"utcNow => {timeResult.FirstOrDefault()?.Text}");
 
+var addTodoResult = await client.CallToolAsync("addTodo", new
+{
+    title = "研讀 MCP 待辦清單示例",
+    description = "透過 Semantic Kernel 呼叫 TodoTool.AddTodo 建立一筆資料"
+});
+Console.WriteLine($"addTodo => {addTodoResult.FirstOrDefault()?.Text}");
+
+var listTodosResult = await client.CallToolAsync("listTodos");
+Console.WriteLine("listTodos =>\n" + listTodosResult.FirstOrDefault()?.Text);
+
 var builder = Kernel.CreateBuilder();
 var kernel = builder.Build();
 
