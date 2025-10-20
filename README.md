@@ -27,6 +27,11 @@
 
 - `EchoTool.Echo(message)`：將輸入訊息回傳。
 - `TimeTool.UtcNow()`：回傳目前 UTC 時間。
+- `TodoTool.AddTodo(title, description?, dueDate?)`：新增一筆儲存在記憶體中的待辦事項。
+- `TodoTool.ListTodos(includeCompleted?)`：列出待辦清單，可選擇是否包含已完成項目。
+- `TodoTool.CompleteTodo(id)` / `TodoTool.ClearCompleted()`：標記完成或清除已完成的待辦事項。
+
+`TodoTool` 會在伺服器執行期間維持一份簡易的待辦清單，適合用於示範如何透過 MCP 呼叫需要維護狀態的工具。
 
 ## Claude Desktop 設定
 
