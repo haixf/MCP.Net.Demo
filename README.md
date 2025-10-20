@@ -8,6 +8,8 @@
 - [`clients/claude`](clients/claude): Claude Desktop 設定範本。
 - [`clients/copilot`](clients/copilot): VS Code Copilot Agent Mode 設定範本。
 - [`clients/semantic-kernel`](clients/semantic-kernel): 使用 Semantic Kernel 透過 MCP 呼叫工具的範例程式碼。
+- [`docs/PROJECT.md`](docs/PROJECT.md): 專案架構與開發重點說明。
+- [`docs/SOLUTION.md`](docs/SOLUTION.md): 常見問題與對應解決方法。
 
 ## MCP 伺服器快速上手
 
