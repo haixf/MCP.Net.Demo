@@ -1,5 +1,6 @@
 using System.ComponentModel;
 using ModelContextProtocol.Server;
+using ModelContextProtocol.Server.Attributes;
 
 namespace McpDemo.Tools;
 
